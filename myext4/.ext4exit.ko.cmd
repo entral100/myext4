@@ -1,0 +1,1 @@
+cmd_/usr/src/myext4/ext4exit.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /usr/src/myext4/ext4exit.ko /usr/src/myext4/ext4exit.o /usr/src/myext4/ext4exit.mod.o;  true
